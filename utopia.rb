@@ -3,7 +3,6 @@ require 'formula'
 class Utopia < Formula
   homepage 'http://www.utopianapp.com'
 
-  
   stable do
     version '0.11.14'
     @@file = "utopia_#{version}_darwin_amd64"
@@ -11,10 +10,11 @@ class Utopia < Formula
     sha1 '968813e76e46ebc002a67728b558374444128219'
   end
 
+  
   devel do
-    version 'devel-01132016-202650'
+    version 'devel-01132016-232839'
     url "https://s3.amazonaws.com/aetna-utopia/devel/utopia_#{version}_darwin_amd64.tar.gz"
-    sha1 '413a01b52f74490f72922b5d943e4768f5dd25dc'
+    sha1 'c90638c7d499ae13c2afc6fe5b107538283e8058'
   end
 
   depends_on :arch => :intel
