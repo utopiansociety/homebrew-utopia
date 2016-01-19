@@ -12,9 +12,9 @@ class Utopia < Formula
 
   
   devel do
-    version 'devel-01152016-214308'
+    version 'devel-01192016-160324'
     url "https://s3.amazonaws.com/aetna-utopia/devel/utopia_#{version}_darwin_amd64.tar.gz"
-    sha1 'cdda46657c0254cb2a9c78e141385cdc8e440032'
+    sha1 'b0cf0d31446e235c13e4ca6ded68a0d68ce34218'
   end
 
   depends_on :arch => :intel
